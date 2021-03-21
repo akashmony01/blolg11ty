@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {      
+  .animAnchor svg{
+    transition: 1s;
+  }
+  
+  .animAnchor:hover svg{
+    transform: translateX(100vw);
+  }
+}
